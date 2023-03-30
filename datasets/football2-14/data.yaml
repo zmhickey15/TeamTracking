@@ -1,0 +1,17 @@
+names:
+- Ball
+- Corner
+- GoalKeeper
+- Referee
+- TEAM 1
+- TEAM 2
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: football2-urmvq
+  url: https://universe.roboflow.com/zachary-hickey-wnnbt/football2-urmvq/dataset/14
+  version: 14
+  workspace: zachary-hickey-wnnbt
+test: ../test/images
+train: football2-14/train/images
+val: football2-14/valid/images
